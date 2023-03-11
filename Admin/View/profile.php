@@ -1,3 +1,7 @@
+<?php
+    include "../Controls/profile_process.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +11,11 @@
     <title>Profile</title>
 </head>
 <body>
+    <?php include '../../Layouts/header.php'; ?>
     <h1>Hello</h1>
     <br>
-    Log in successfull
+    <a href="../Controls/logout.php"> log out </a>
+    <br>
+    <?php include '../../Layouts/footer.php'; ?>
 </body>
 </html>

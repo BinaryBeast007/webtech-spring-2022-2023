@@ -11,6 +11,7 @@
     <title>Login Page</title>
 </head>
 <body>
+    <?php include '../../Layouts/header.php'; ?>
     <fieldset>
         <legend> User Login </legend>
         <form action="../Controls/loginControl.php" method="POST" enctype="multipart/form-data">
@@ -29,5 +30,6 @@
             </table>
         </form>
     </fieldset>
+    <?php include '../../Layouts/footer.php'; ?>
 </body>
 </html>
