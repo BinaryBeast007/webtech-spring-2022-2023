@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <br><br>
     <small>&copy; Copyright 2023, WT[G] Group - 07 (Spring 2022-2023) </small>
 </body>
 </html>

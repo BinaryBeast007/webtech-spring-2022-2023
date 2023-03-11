@@ -8,8 +8,16 @@
 </head>
 <body>
     <table>
-        <th> <img src="http://localhost/WT%20Project/webtech-spring-2022-2023/Assets/rent-logo.png" width="50px" height="50px"> </th>
-        <th> Welcome to ABC House Rental Service </th>
+        <tr>
+            <td> <img src="http://localhost/WT%20Project/webtech-spring-2022-2023/Assets/rent-logo.png" width="50px" height="50px"> </td>
+            <td> ABC Rental Service </td>
+        </tr>
+        <tr>
+            <td align="center"> <a href="#">Home </a> </td>
+            <td align="center"> <a href="#">Login </a> </td>
+            <td align="center"> <a href="#">Registration </a> </td>
+        </tr>
     </table>
+    <br><br>
 </body>
 </html>
