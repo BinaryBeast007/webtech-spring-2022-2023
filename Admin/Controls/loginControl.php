@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!empty($_SESSION["Email"])) {
-        header("Location: ../View/profile.php");
+        header("Location: ../View/dashboard.php");
     }
     if(isset($_REQUEST["login"])) {
         $is_found = false;
@@ -15,7 +15,7 @@
             foreach($phpobj as $myobj) {
                 if($myobj->Email == $_REQUEST["Email"] && $myobj->Password == $_REQUEST["Password"]) {
                     $_SESSION["Email"] = $myobj->Email;
-                    header("Location: ../View/profile.php");
+                    header("Location: ../View/dashboard.php");
                     $is_found = true;
                     break;
                 }
