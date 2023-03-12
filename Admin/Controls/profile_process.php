@@ -10,7 +10,6 @@
     foreach($phpdata as $myobj) {
         if($_SESSION["Email"] == $myobj->Email) {
             $current_user = $myobj;
-            $_SESSION["Name"] = $myobj->Name;
             break;
         }
     }

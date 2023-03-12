@@ -12,7 +12,25 @@
     <table border="1" style="border-collapse: collapse;" cellpadding="10">
         <tr>
             <td> <a href="dashboard.php"> Dashboard </a> </td>
-            <td rowspan="5"> Change Password </td>
+            <td rowspan="5">  
+                <fieldset>
+                    <legend> Change Password </legend>
+                    <table>
+                        <tr>  
+                            <td>Current Password</td>
+                            <td><input type="text" name="current_pass" placeholder="Enter current password"></td>
+                        </tr>
+                        <tr>  
+                            <td>New Password</td>
+                            <td><input type="text" name="new_pass" placeholder="Enter new password"></td>
+                        </tr>
+                        <tr>  
+                            <td>Retype New Password</td>
+                            <td><input type="text" name="retype_pass" placeholder="Retype new password"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
         </tr>
         <tr><td> <a href="view_profile.php"> View Profile </a> </td></tr>
         <tr><td> <a href="edit_profile.php"> Edit Profile </a> </td></tr>
