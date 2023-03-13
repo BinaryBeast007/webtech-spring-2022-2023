@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include '../../Layouts/logged_in_header.php'; ?>
-    <form action="../Controls/changePassword.php" method="POST" enctype="multipart/form-data">
+    <form action="../Controls/changePicture.php" method="POST" enctype="multipart/form-data">
         <table border="1" style="border-collapse: collapse;" cellpadding="10">
             <tr>
                 <td> <a href="dashboard.php"> Dashboard </a> </td>
@@ -23,6 +23,10 @@
                             <tr>  
                                 <td>New Picture</td>
                                 <td><input type="file" name="image"></td>
+                            </tr>
+                            <tr>
+                                <td> <input type="submit" value="Submit"> </td>
+                                <td> <input type="reset" value="Reset"> </td>
                             </tr>
                         </table>
                     </fieldset>
